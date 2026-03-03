@@ -1,8 +1,8 @@
 {
-  "name": "p_leet_translater",
+  "name": "leet-translater",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://i0ji.github.io/p_leet_translater/",
+  "homepage": "https://i0ji.github.io/leet-translater/",
   "type": "module",
   "dependencies": {
     "@types/node": "25.3.3",
