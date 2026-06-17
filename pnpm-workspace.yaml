@@ -1,4 +1,10 @@
+allowBuilds:
+  '@parcel/watcher': set this to true or false
+  esbuild: set this to true or false
+minimumReleaseAgeExclude:
+  - esbuild@0.28.1
 overrides:
+  esbuild@>=0.17.0 <0.28.1: ^0.28.1
   picomatch@<2.3.2: '>=2.3.2'
   rollup@>=4.0.0 <4.59.0: '>=4.59.0'
   yaml@>=1.0.0 <1.10.3: '>=1.10.3'
