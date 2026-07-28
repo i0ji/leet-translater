@@ -4,6 +4,8 @@ allowBuilds:
 minimumReleaseAgeExclude:
   - '@vitejs/plugin-react@6.0.3'
   - vite@8.1.0
+  - '@types/node@26.1.2'
+  - immutable@5.1.8
 overrides:
   picomatch@<2.3.2: '>=2.3.2'
   rollup@>=4.0.0 <4.59.0: '>=4.59.0'
