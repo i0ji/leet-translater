@@ -1,11 +1,11 @@
-import Select from "react-select";
+import Select from 'react-select';
 
-import { DropDownMenuStyles } from "./DropDownMenuStyles";
+import { DropDownMenuStyles } from './DropDownMenuStyles';
 
 const options = [
-  { value: "sl", label: "5!mp13 1337" },
-  { value: "ml", label: "|\\/|1[)[)13   13\\/31" },
-  { value: "hl", label: "#/-\\/2|) ([]/2|-"},
+  { value: 'sl', label: '5!mp13 1337' },
+  { value: 'ml', label: '|\\/|1[)[)13   13\\/31' },
+  { value: 'hl', label: '#/-\\/2|) ([]/2|-' },
 ];
 
 export default function DropDownMenu(props: any) {
@@ -20,10 +20,10 @@ export default function DropDownMenu(props: any) {
       defaultValue={options[0]}
       onChange={handleLevelChange}
       options={options}
-      menuPlacement={"top"}
+      menuPlacement={'top'}
       hideSelectedOptions={false}
       isSearchable={false}
-      menuPosition={"fixed"}
+      menuPosition={'fixed'}
       // menuIsOpen={true}
     />
   );
